@@ -9,7 +9,7 @@
    mkdir cm68sdk
    cd cm68sdk
    ```
-2. Copy the downloaded files into this directory and use the `md5sum -c` command to verify the files. If the verification fails, please re-download the corrupted archive files. ![](.\img\1.png)
+2. Copy the downloaded files into this directory and use the `md5sum -c` command to verify the files. If the verification fails, please re-download the corrupted archive files. ![](https://raw.githubusercontent.com/zzcatvs/CM68_SDK/main/img/1.png)
 
 3. Extract the SDK using the command:
    ```
@@ -35,11 +35,11 @@
    ./build.sh
    ```
 
-   ![](.\img\2.png)
+   ![](https://raw.githubusercontent.com/zzcatvs/CM68_SDK/main/img/2.png)
 
-7. After compiling, you should see the result as shown below: ![](.\img\3.png)
+7. After compiling, you should see the result as shown below: ![](https://raw.githubusercontent.com/zzcatvs/CM68_SDK/main/img/3.png)
 
-8. Upon successful compilation, image files will be generated in the `rockdev/` directory. For a full package flash, use the image with the date suffix: `updatexxx.img`. ![](.\img\4.png)
+8. Upon successful compilation, image files will be generated in the `rockdev/` directory. For a full package flash, use the image with the date suffix: `updatexxx.img`. ![](https://raw.githubusercontent.com/zzcatvs/CM68_SDK/main/img/4.png)
 
 9. Compile uboot separately.
 
@@ -91,7 +91,7 @@
     tar -xvJf linaro-rootfs.img.tar.xz; mv linaro-rootfs.img debian/
     ```
 
- 2. Run the command `./build.sh init` and select the second option `cm68-debian_defconfig` to switch the system. ![](.\img\5.png)
+ 2. Run the command `./build.sh init` and select the second option `cm68-debian_defconfig` to switch the system. ![](https://raw.githubusercontent.com/zzcatvs/CM68_SDK/main/img/5.png)
 
  3. Compile the Debian system globally.
 
